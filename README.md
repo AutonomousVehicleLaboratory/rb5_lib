@@ -1,7 +1,7 @@
 # rb5_lib
 
 
-This repository contains packages and libraries for the Qualcomm RB5 development platform. The dependencies correspond to various ROS nodes available at [rb5_ros]()
+This repository contains packages and libraries for the Qualcomm RB5 development platform. The dependencies correspond to various ROS nodes available at [rb5_ros](https://github.com/AutonomousVehicleLaboratory/rb5_ros)
 
 ## Kernel Modules
 
