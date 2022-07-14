@@ -11,7 +11,8 @@ then
   echo ".ko file compiled with " $MODULE_VERSION
   echo "System kernel is " $KERNEL_VERSION
 else
-  cp ./joydev/joydev.ko /lib/modules/$(uname -r)/kernel/drivers/input
+  mkdir -p /lib/modules/$(uname -r)/kernel/drivers/input/
+  cp ./joydev/joydev.ko /lib/modules/$(uname -r)/kernel/drivers/input/
   depmod -a
   echo "JOYDEV loaded"
 fi
